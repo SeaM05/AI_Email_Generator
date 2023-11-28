@@ -9,7 +9,7 @@ def read_credentials(filename):
 
 
 # Read API key and email password from the file
-api_key, password,sender_email  = read_credentials('c:/Users/mohit/OneDrive/Desktop/prathu/py/emai/config.txt')
+api_key, password,sender_email  = read_credentials('/emai/config.txt')
 openai.api_key = api_key
 
 def generate_email(prompt):
